@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iZTpeVS1fRHHzot48PJ2M4U6RV3aEA+T/4HLMHAbkEon/3/rcYB9XicjwH34cI0+LVAodyO7Q+JlKBm/McR6dw==",
+  "success": true,
+  "projectFilePath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/Wes/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/Wes/.nuget/packages/mediatr/8.1.0/mediatr.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
