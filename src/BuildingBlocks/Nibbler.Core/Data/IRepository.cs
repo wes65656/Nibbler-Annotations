@@ -6,10 +6,10 @@ public interface IRepository<TEntity> : IDisposable where TEntity : IAggregateRo
 {
     IUnitOfWorks UnitOfWork { get; }
 
-    Task<TEntity> ObterPorId(Guid Id);
+    Task<TEntity> ObterPorId(Guid id);
 
     void Adicionar(TEntity entity);
-    
+  
     void Atualizar(TEntity entity);
 
     void Apagar(Func<TEntity,bool> predicate);
