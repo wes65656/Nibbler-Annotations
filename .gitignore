@@ -7,3 +7,11 @@
 EAFCS6953
 out
 gen
+
+# Build artifacts
+bin/
+obj/
+
+# Assembly info files
+**/AssemblyInfo.*
+**/AssemblyInfoInputs.cache
