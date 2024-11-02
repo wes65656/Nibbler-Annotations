@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nibbler.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec6020d2f8f622b508d58acb59b6d8d2e41cc7c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+607d3b92dd874a4fb25873cc01bee09949ffaa77")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nibbler.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nibbler.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

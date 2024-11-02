@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\BuildingBlocks\Nibbler.Core\Nibbler.Core.csproj" />
+    </ItemGroup>
+
 </Project>
