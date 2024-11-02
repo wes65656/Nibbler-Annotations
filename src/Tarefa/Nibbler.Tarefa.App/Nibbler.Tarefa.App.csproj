@@ -12,4 +12,16 @@
       <Folder Include="ViewModels\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Commands\Contracts\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Commands\Contracts\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Commands\Contracts\**" />
+    </ItemGroup>
+
 </Project>
