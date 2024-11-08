@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4nQzj8jBLjqZ5puXdZSqvaUW3UPFEaXgl7FAAtPqoHcPCqT1nWZYdwiOhe6nV6ZNF3rtpM97MhiQYRComl3faQ==",
+  "dgSpecHash": "REZuS2jnZrw=",
   "success": true,
-  "projectFilePath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj",
+  "projectFilePath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj",
   "expectedPackageFiles": [
     "/Users/Wes/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/Wes/.nuget/packages/mediatr/8.1.0/mediatr.8.1.0.nupkg.sha512",

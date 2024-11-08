@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
+      "projectUniqueName": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
       "projectName": "Nibbler.Core",
-      "projectPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
+      "projectPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
       "packagesPath": "/Users/Wes/.nuget/packages/",
-      "outputPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/obj/",
+      "outputPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Wes/.nuget/NuGet/NuGet.Config"
@@ -112,6 +112,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

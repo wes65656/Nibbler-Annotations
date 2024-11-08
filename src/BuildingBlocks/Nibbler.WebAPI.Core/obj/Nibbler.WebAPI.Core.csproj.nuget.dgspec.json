@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj": {}
+    "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj": {}
   },
   "projects": {
-    "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj": {
+    "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
+        "projectUniqueName": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
         "projectName": "Nibbler.Core",
-        "projectPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
+        "projectPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj",
         "packagesPath": "/Users/Wes/.nuget/packages/",
-        "outputPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/obj/",
+        "outputPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Wes/.nuget/NuGet/NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,14 +72,14 @@
         }
       }
     },
-    "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj": {
+    "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj",
+        "projectUniqueName": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj",
         "projectName": "Nibbler.WebAPI.Core",
-        "projectPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj",
+        "projectPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.WebAPI.Core/Nibbler.WebAPI.Core.csproj",
         "packagesPath": "/Users/Wes/.nuget/packages/",
-        "outputPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.WebAPI.Core/obj/",
+        "outputPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.WebAPI.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Wes/.nuget/NuGet/NuGet.Config"
@@ -89,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj": {
-                "projectPath": "/Users/Wes/RiderProjects/nibbler-projetofinal/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj"
+              "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj": {
+                "projectPath": "/Users/Wes/RiderProjects/Nibbler-Annotations/src/BuildingBlocks/Nibbler.Core/Nibbler.Core.csproj"
               }
             }
           }
@@ -99,6 +104,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
