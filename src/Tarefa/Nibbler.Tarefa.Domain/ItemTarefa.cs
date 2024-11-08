@@ -33,18 +33,18 @@ public class ItemTarefa : Entity
     public void DesmarcarComoConcluido()
     {
         Concluido = false;
-        DataDeAlteracao = DateTime.Now;
+        DataDeAlteracao = DateTime.UtcNow;
     }
 
     public void AlterarDescricao(string descricao)
     {
         Descricao = descricao;
-        DataDeAlteracao = DateTime.Now;
+        DataDeAlteracao = DateTime.UtcNow;
     }
 
     public void AlterarOrdem(int ordem)
     {
         Ordem = ordem;
-        DataDeAlteracao = DateTime.Now;
+        DataDeAlteracao = DateTime.UtcNow;
     }
 }

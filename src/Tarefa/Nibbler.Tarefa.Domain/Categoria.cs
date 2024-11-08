@@ -20,8 +20,7 @@ public class Categoria : Entity
     {
         Nome = nome;
         Descricao = descricao;
-        Hash = hash;
-        _tarefas = new List<Tarefa>();
+        Hash = new Identidade(Nome.Trim().RemoveAcentos().ToLower());
     }
 
     public static Guid GerarHash(string nome) => new Identidade(nome.Trim().RemoveAcentos().ToLower());

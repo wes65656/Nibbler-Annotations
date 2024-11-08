@@ -3,12 +3,8 @@ using Nibbler.Core.Data;
 
 namespace Nibbler.Tarefa.Domain.Interfaces;
 
-public interface ITarefaRepository : IRepository<Tarefa>
+public interface ITarefaRepository : IRepository<Tarefa>, IDisposable
 {
-    Task<IEnumerable<Tarefa>> ObterTarefasPorUsuario(Guid usuarioId);
-    Task<IEnumerable<Tarefa>> ObterTarefasPorCategoria(Guid categoriaId);
-    Task<IEnumerable<Tarefa>> ObterTarefasConcluidas(Guid usuarioId);
-    Task<IEnumerable<Tarefa>> ObterTarefasPendentes(Guid usuarioId);
     Task<Tarefa> ObterTarefaComItens(Guid id);
     Task<IEnumerable<ItemTarefa>> ObterItensPorTarefa(Guid tarefaId);
     Task<IEnumerable<Categoria>> ObterCategorias();

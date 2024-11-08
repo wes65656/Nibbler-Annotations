@@ -7,12 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Commands\" />
-      <Folder Include="Queries\" />
-      <Folder Include="ViewModels\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Compile Remove="Commands\Contracts\**" />
     </ItemGroup>
 
@@ -22,6 +16,11 @@
 
     <ItemGroup>
       <None Remove="Commands\Contracts\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\BuildingBlocks\Nibbler.Core\Nibbler.Core.csproj" />
+      <ProjectReference Include="..\..\Usuarios\Nibbler.Usuario.Domain\Nibbler.Usuario.Domain.csproj" />
     </ItemGroup>
 
 </Project>
